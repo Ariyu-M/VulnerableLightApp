@@ -23,7 +23,7 @@ jobs:
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
-        languages: 'all'  # Analyse de tous les langages du dépôt
+        languages: csharp'  # Analyse de tous les langages du dépôt
 
     - name: Autobuild
       uses: github/codeql-action/autobuild@v2

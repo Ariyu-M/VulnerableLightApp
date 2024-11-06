@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ "Test" ]
   schedule:
-    - cron: '5 0 * * 2' # Weekly scan every Tuesday at 00:05 UTC
+    - cron: '5 0 * * 2' # Analyse hebdomadaire chaque mardi à 00:05 UTC
 
 jobs:
   analyze:
@@ -23,7 +23,7 @@ jobs:
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
-        languages: 'javascript,python' # Remplacez par les langages de votre projet
+        languages: 'all'  # Analyse de tous les langages du dépôt
 
     - name: Autobuild
       uses: github/codeql-action/autobuild@v2

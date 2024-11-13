@@ -62,11 +62,6 @@ VLA is designed as a vulnerable backend application, running in the following en
 * [Become a sponsor](https://github.com/sponsors/Aif4thah?frequency=recurring&sponsor=Aif4thah) and get access to the **full methodology** and **complete write-up**.
 
 
-## ✅ Prerequisites
-
-Check `.csproj` file to get the current dotnet version and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
-
-
 ## ⬇️ Download
 
 ```PowerShell
@@ -80,6 +75,8 @@ cd .\VulnerableLightApp\
 You can use **Dotnet** or **Docker**
 
 ### Dotnet
+
+Check `.csproj` file to get the current dotnet version and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
 
 ```PowerShell
 dotnet run [--url=<url>]
